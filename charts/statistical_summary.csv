@@ -1,0 +1,12 @@
+metric,value
+total_transactions,283726
+total_fraud,473
+fraud_rate_pct,0.1667
+avg_fraud_amount,123.87
+max_fraud_amount,2125.87
+avg_normal_amount,88.41
+p_value,0.00209
+hypothesis_result,Fraud amounts are statistically different
+high_value_threshold,365.34
+night_fraud_rate,0.2814
+day_fraud_rate,0.1421

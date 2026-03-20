@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FinSight Project Lifecycle</title>
+<style>
+  body { margin: 0; padding: 24px; background: #0f1117; font-family: 'Segoe UI', sans-serif; }
+  svg { width: 100%; max-width: 700px; display: block; margin: 0 auto; }
+</style>
+</head>
+<body>
+<svg viewBox="0 0 680 860" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- Phase 1 -->
+<rect x="40" y="30" width="600" height="64" rx="10" fill="#2d1f5e" stroke="#7c5cbf" stroke-width="0.8"/>
+<text x="340" y="55" text-anchor="middle" fill="#c4b0f5" font-size="14" font-weight="600">Phase 1 — Problem definition &amp; scope</text>
+<text x="340" y="76" text-anchor="middle" fill="#9b87d1" font-size="12">Define use case · Identify fraud patterns · Set KPIs · Choose datasets</text>
+
+<line x1="340" y1="94" x2="340" y2="118" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 2 -->
+<rect x="40" y="118" width="600" height="64" rx="10" fill="#0d2a4a" stroke="#2d7dd2" stroke-width="0.8"/>
+<text x="340" y="143" text-anchor="middle" fill="#90c8f5" font-size="14" font-weight="600">Phase 2 — Data collection &amp; MySQL setup</text>
+<text x="340" y="164" text-anchor="middle" fill="#6aaee0" font-size="12">Kaggle / synthetic dataset · Schema design · Tables · Stored procedures</text>
+
+<line x1="340" y1="182" x2="340" y2="206" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 3 -->
+<rect x="40" y="206" width="600" height="64" rx="10" fill="#0d3530" stroke="#1d9e75" stroke-width="0.8"/>
+<text x="340" y="231" text-anchor="middle" fill="#7ee8c5" font-size="14" font-weight="600">Phase 3 — Data cleaning &amp; EDA</text>
+<text x="340" y="252" text-anchor="middle" fill="#5ecaaa" font-size="12">Pandas · Numpy · Handle nulls · Outliers · Feature engineering · Distributions</text>
+
+<line x1="340" y1="270" x2="340" y2="294" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 4 -->
+<rect x="40" y="294" width="600" height="64" rx="10" fill="#3a2800" stroke="#ba7517" stroke-width="0.8"/>
+<text x="340" y="319" text-anchor="middle" fill="#fac775" font-size="14" font-weight="600">Phase 4 — Statistical analysis</text>
+<text x="340" y="340" text-anchor="middle" fill="#d4a040" font-size="12">Z-Score · IQR · Rolling mean/std · Scipy stats · Hypothesis testing</text>
+
+<line x1="340" y1="358" x2="340" y2="382" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 5 -->
+<rect x="40" y="382" width="600" height="64" rx="10" fill="#3d1a10" stroke="#993c1d" stroke-width="0.8"/>
+<text x="340" y="407" text-anchor="middle" fill="#f0997b" font-size="14" font-weight="600">Phase 5 — Anomaly detection (AI layer)</text>
+<text x="340" y="428" text-anchor="middle" fill="#d07858" font-size="12">Isolation Forest · LOF · Flag suspicious transactions · Risk scoring</text>
+
+<line x1="340" y1="446" x2="340" y2="470" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 6 -->
+<rect x="40" y="470" width="600" height="64" rx="10" fill="#162c0a" stroke="#3b6d11" stroke-width="0.8"/>
+<text x="340" y="495" text-anchor="middle" fill="#c0dd97" font-size="14" font-weight="600">Phase 6 — Power BI dashboard</text>
+<text x="340" y="516" text-anchor="middle" fill="#97c459" font-size="12">Connect MySQL · KPI cards · Anomaly heatmap · Risk trend charts · Drill-through</text>
+
+<line x1="340" y1="534" x2="340" y2="558" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 7 -->
+<rect x="40" y="558" width="600" height="64" rx="10" fill="#3a0d20" stroke="#993556" stroke-width="0.8"/>
+<text x="340" y="583" text-anchor="middle" fill="#f4c0d1" font-size="14" font-weight="600">Phase 7 — Insights &amp; business storytelling</text>
+<text x="340" y="604" text-anchor="middle" fill="#d08099" font-size="12">Root cause analysis · Business recommendations · Narrative framing</text>
+
+<line x1="340" y1="622" x2="340" y2="646" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Phase 8 -->
+<rect x="40" y="646" width="600" height="64" rx="10" fill="#1e1e1e" stroke="#5f5e5a" stroke-width="0.8"/>
+<text x="340" y="671" text-anchor="middle" fill="#d3d1c7" font-size="14" font-weight="600">Phase 8 — Documentation &amp; GitHub</text>
+<text x="340" y="692" text-anchor="middle" fill="#a0a09a" font-size="12">README · Jupyter notebooks · SQL scripts · Architecture diagram · Publish</text>
+
+<line x1="340" y1="710" x2="340" y2="734" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<!-- Final -->
+<rect x="160" y="734" width="360" height="56" rx="10" fill="#2d1f5e" stroke="#7c5cbf" stroke-width="1.2"/>
+<text x="340" y="758" text-anchor="middle" fill="#c4b0f5" font-size="14" font-weight="700">Resume-ready project</text>
+<text x="340" y="778" text-anchor="middle" fill="#9b87d1" font-size="12">End-to-end · Interview-worthy · Deployed</text>
+</svg>
+</body>
+</html>

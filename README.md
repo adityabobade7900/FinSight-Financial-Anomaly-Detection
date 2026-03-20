@@ -65,11 +65,35 @@ classification to identify fraudulent transactions.
 
 ---
 
-## Dataset
-- Source: [Kaggle — Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- Total Transactions: 284,807
-- Fraud Cases: 492 (0.1727%)
-- Features: 28 PCA components + Amount + Time
+## 📊 Dataset
+
+- **Source:** [Kaggle — Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
+- **Total Transactions:** 284,807  
+- **Fraud Cases:** 492 (**0.17% — highly imbalanced dataset**)  
+
+### 🔢 Features
+- 28 anonymized **PCA-transformed features** (`V1` to `V28`)  
+- `Amount` — Transaction value  
+- `Time` — Seconds elapsed since first transaction  
+
+---
+
+## 📁 Data & Dashboard Access
+
+Due to large file size, the dataset and Power BI dashboard are hosted externally:
+
+👉 **Google Drive (Dataset + Power BI Dashboard):**  
+https://drive.google.com/drive/folders/1TTWwpDObbOJgC-0PMyiebVuCQt0SDdFM  
+
+---
+
+## ⚠️ Note
+- Dataset is not included in this repository due to size constraints  
+- The Drive folder contains:
+  - 📄 Dataset file (`.csv / .zip`)  
+  - 📊 Power BI dashboard (`.pbix`)  
+
+---
 
 ---
 

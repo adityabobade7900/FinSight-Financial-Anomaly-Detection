@@ -180,6 +180,17 @@ https://drive.google.com/drive/folders/1TTWwpDObbOJgC-0PMyiebVuCQt0SDdFM
 
 ---
 
+## 📞 Need Help?
+
+If you have any questions, suggestions, or run into any issues, feel free to reach out:
+
+| Platform    | Link                                                                          |
+|-------------|-------------------------------------------------------------------------------|
+| 💼 LinkedIn  | [linkedin.com/in/adityabobade](https://linkedin.com/in/adityabobade)          |
+| 📧 Email     | [bobade1436@gmail.com](mailto:bobade1436@gmail.com)                           |
+
+---
+
 ## Author
 **Aditya Bobade**
 Data Analyst | Python | MySQL | Power BI | Machine Learning
